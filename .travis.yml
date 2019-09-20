@@ -4,5 +4,5 @@ addons:
     organization: "seblucas"
 script:
   # other script steps might be done before running the actual analysis
-  - javac hello.java
+  - javac HelloWorld.java
   - sonar-scanner
