@@ -1,0 +1,8 @@
+language: java
+addons:
+  sonarcloud:
+    organization: "seblucas"
+script:
+  # other script steps might be done before running the actual analysis
+  - javac hello.java
+  - sonar-scanner
